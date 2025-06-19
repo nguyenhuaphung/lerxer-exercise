@@ -1,4 +1,5 @@
 from antlr4 import *
+from antlr4.error.ErrorListener import ErrorListener
 import importlib
 lang = "BKIT"
 lexer_name = lang + "Lexer"
